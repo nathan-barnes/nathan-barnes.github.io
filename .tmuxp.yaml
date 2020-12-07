@@ -1,9 +1,9 @@
-session_name: glitch-ccr-mockupsurvey
+session_name: zea-template-svelte
 suppress_history: false
 windows:
   - layout: main-vertical
     panes:
-      - ./start.sh
+      - yarn run start
       - ${EDITOR} -S
   - panes:
       - shell_command:
