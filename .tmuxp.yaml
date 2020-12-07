@@ -1,0 +1,11 @@
+session_name: glitch-ccr-mockupsurvey
+suppress_history: false
+windows:
+  - layout: main-vertical
+    panes:
+      - ./start.sh
+      - ${EDITOR} -S
+  - panes:
+      - shell_command:
+          - git fetch
+          - git status
